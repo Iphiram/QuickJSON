@@ -1,4 +1,22 @@
-* {
-	background-color: red;
-	color: red;
+#JSONview {
+
 }
+#value {
+    -fx-background-color: green;
+    -fx-border-color: red;
+}
+#data {
+    -fx-background-color: blue;
+    -fx-border-color: red;
+}
+#hbox {
+    -fx-background-color: yellow;
+    -fx-border-color: red;
+}
+
+/*         Button gees = new Button("hi");
+        gees.setMinSize(100,100);
+        gees.setPrefSize(900,900);
+        gees.setPadding(new Insets(1));
+        add(gees,0,0);
+        */

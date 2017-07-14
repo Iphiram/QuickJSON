@@ -6,11 +6,13 @@ import javafx.stage.Stage;import javafx.scene.Scene;
  */
 public class QuickJSON extends Application {
     public void start(Stage primaryStage) {
-        JSONcontroller controller = new JSONcontroller();
         JSONmodel model = new JSONmodel();
+        JSONview view = new JSONview(model);
 
-        JSONview view = new JSONview();
         Scene s = new Scene(view, 800,600);
+        s.getStylesheets().add("Style.css");
+        primaryStage.setMinHeight(300);
+        primaryStage.setMinWidth(400);
 
         primaryStage.setTitle("QuickJSON");
         primaryStage.setScene(s);
