@@ -12,8 +12,8 @@ public class QuickJSON extends Application {
         JSONview view = new JSONview();
         Scene s = new Scene(view, 800,600);
 
-        primaryStage.setScene(s);
         primaryStage.setTitle("QuickJSON");
+        primaryStage.setScene(s);
         primaryStage.show();
     }
     public static void main(String[] args) { launch(args); }
