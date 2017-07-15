@@ -1,6 +1,9 @@
 #JSONview {
 
 }
+#hg {
+    -fx-background-color: purple;
+}
 #value {
     -fx-background-color: green;
     -fx-border-color: red;
