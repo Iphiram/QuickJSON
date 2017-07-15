@@ -4,7 +4,7 @@ import javafx.scene.layout.GridPane;
  * Created by Iphiram on 7/14/2017.
  */
 public class JSONview extends GridPane{
-    private JSONmodel       model;
+    private JSONmodel     model;
     private data             da;
     private value            va;
     private hbox             hb;

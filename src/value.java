@@ -12,5 +12,7 @@ public class value extends FlowPane {
         setMinSize(100,200);
         setPrefSize(5000,5000);
         setMaxSize(10000,10000);
+
+
     }
 }
