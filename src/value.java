@@ -17,18 +17,16 @@ public class value extends AnchorPane {
 
         ol = new Label ("");
 
-
         //add the id of the label for use with CSS
-        ol.setId("hg");
-
+        ol.setId("innerTextValue");
 
         //add text wrapping, set alignment of text and label
         ol.setWrapText(true);
         ol.setAlignment(Pos.TOP_LEFT);
-        setTopAnchor(ol, 8.0);
-        setLeftAnchor(ol, 8.0);
-        setRightAnchor(ol, 8.0);
-        setBottomAnchor(ol, 8.0);
+        setTopAnchor(ol, 0.0);
+        setLeftAnchor(ol, 0.0);
+        setRightAnchor(ol, 0.0);
+        setBottomAnchor(ol, 0.0);
 
         //add the label to the anchorpane
         getChildren().add(ol);

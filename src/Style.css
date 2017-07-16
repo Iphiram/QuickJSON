@@ -1,28 +1,42 @@
 #JSONview {
 
 }
-#lll {
-    -fx-border-color: red;
+#innerPaneData {
+    -fx-background-color: #D5D5D5;
 }
-#hg {
-    -fx-background-color: purple;
+#innerTextValue {
+    -fx-background-color: #D5D5D5;
 }
 #value {
-    -fx-background-color: green;
-    -fx-border-color: red;
+    -fx-background-color: #D5D5D5;
 }
 #data {
-    -fx-background-color: blue;
-    -fx-border-color: red;
+    -fx-background-color: #D5D5D5;
+    -fx-background: #D5D5D5;
 }
 #hbox {
-    -fx-background-color: yellow;
-    -fx-border-color: red;
+    -fx-background-color: #6D7993;
 }
-
-/*         Button gees = new Button("hi");
-        gees.setMinSize(100,100);
-        gees.setPrefSize(900,900);
-        gees.setPadding(new Insets(1));
-        add(gees,0,0);
-        */
+.scroll-bar:vertical{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-border-radius: 2em;
+}
+.scroll-bar:vertical .thumb{
+    -fx-background-color: #6D7993;
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+ }
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-padding:0 10 0 0;
+}
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow
+{
+    -fx-shape: " ";
+    -fx-padding:0;
+}

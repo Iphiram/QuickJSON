@@ -9,7 +9,7 @@ import javafx.scene.layout.GridPane;
  * Created by Iphiram on 7/14/2017.
  */
 public class data extends ScrollPane{
-    TextArea t;
+    TextArea    t;
     GridPane    g;
     Label       l;
 
@@ -17,10 +17,8 @@ public class data extends ScrollPane{
         //set ID for use with CSS
         setId("data");
 
-        setPadding(new Insets(10));
-
         g = new GridPane();
-        g.setId("lll");
+        g.setId("innerPaneData");
         g.setPadding(new Insets(10));
         g.setVgap(10);
 
