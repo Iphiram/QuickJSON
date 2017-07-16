@@ -23,8 +23,8 @@ public class JSONview extends GridPane{
         hb = new hbox();
 
         //add view classes to gridpane
-        add(da, 0,0);
-        add(va, 1, 0);
-        add(hb, 0,1,2,1);
+        add(da, 0,1);
+        add(va, 1, 1);
+        add(hb, 0,0,2,1);
     }
 }
